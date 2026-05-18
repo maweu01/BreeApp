@@ -13,24 +13,24 @@ export default defineConfig({
         name: 'Bree App',
         short_name: 'BreeApp',
         description: 'An intelligent AI assistant workspace powered by Gemini.',
-        theme_color: '#ffffff',
+        theme_color: '#5cc7d1',
         background_color: '#ffffff',
         display: 'standalone',
         orientation: 'portrait',
         start_url: '/',
         icons: [
           {
-            src: 'icons/icon-192x192.png',
+            src: '/icons/icon-192x192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'icons/icon-512x512.png',
+            src: '/icons/icon-512x512.png',
             sizes: '512x512',
             type: 'image/png'
           },
           {
-            src: 'icons/icon-512x512.png',
+            src: '/icons/icon-512x512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable'
